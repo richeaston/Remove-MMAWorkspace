@@ -3,6 +3,7 @@ function Remove-MMAWorkspace ($workspaceId) {
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
     $mma.RemoveCloudWorkspace($workspaceId)
     $mma.ReloadConfiguration()
+    Write-host "`tRemoved $workspaceId"
     }
     catch {
         Write-warning "Something went wrong"

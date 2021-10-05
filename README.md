@@ -1,2 +1,2 @@
 # Remove-MMAWorkspace
-unlink a servers "Microsoft Monitor Agent" from an Azure workspace
+unlink/link a servers "Microsoft Monitor Agent" from an Azure workspace
